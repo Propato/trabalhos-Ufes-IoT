@@ -1,0 +1,9 @@
+[submodule "trabalhos-Ufes-IoT-web-manager"]
+	path = trabalhos-Ufes-IoT-web-manager
+	url = https://github.com/Propato/trabalhos-Ufes-IoT-web-manager.git
+[submodule "trabalhos-Ufes-IoT-gate-control"]
+	path = trabalhos-Ufes-IoT-gate-control
+	url = https://github.com/Propato/trabalhos-Ufes-IoT-gate-control.git
+[submodule "trabalhos-Ufes-IoT-ThingsBoard"]
+	path = trabalhos-Ufes-IoT-ThingsBoard
+	url = https://github.com/Propato/trabalhos-Ufes-IoT-ThingsBoard.git
