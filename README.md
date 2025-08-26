@@ -26,7 +26,7 @@ Each module has specific responsibilities and communicates to ensure the integra
 
 ### 1. Web Manager
 
-![Web Manager Interface](./assets/web-manager.png)
+![Web Manager Interface](https://github.com/Propato/trabalhos-Ufes-IoT-web-manager/blob/main/assets/web-manager.png)
 
 > Fig. 3: Web Manager Interface, showing the page to register the graph and calculate the paths.
 
@@ -37,13 +37,13 @@ The Web Manager module is responsible for:
 -   Communicating via HTTP and MQTT with gate devices and the ThingsBoard system.
 -   Managing occupancy and vehicle movement data.
 
-> For technical details, prerequisites, and usage instructions, see the [Web Manager README](./trabalhos-Ufes-IoT-web-manager/README.md).
+> For technical details, prerequisites, and usage instructions, see the [Web Manager README](https://github.com/Propato/trabalhos-Ufes-IoT-web-manager/blob/main/README.md).
 
 ---
 
 ### 2. Gate Control (Gate Device)
 
-![Electronic schematic](./assets/schematic.png)
+![Electronic schematic](https://github.com/Propato/trabalhos-Ufes-IoT-gate-control/blob/main/assets/schematic.png)
 
 > Fig. 4: Electronic Schematic of the Gate Device.
 
@@ -54,13 +54,13 @@ This embedded module performs:
 -   Physical gate control using a servo motor (open/close).
 -   Communication with the Web Manager via MQTT.
 
-> For technical information, installation, and common issues, check the [Gate Control README](./trabalhos-Ufes-IoT-gate-control/README.md).
+> For technical information, installation, and common issues, check the [Gate Control README](https://github.com/Propato/trabalhos-Ufes-IoT-gate-control/blob/main/README.md).
 
 ---
 
 ### 3. ThingsBoard
 
-![ThingsBoard Dashboard](./assets/things-board.png)
+![ThingsBoard Dashboard](https://github.com/Propato/trabalhos-Ufes-IoT-ThingsBoard/blob/main/assets/dashboard.png)
 
 > Fig. 5: ThingsBoard Dashboard, showing total occupancy and occupancy over time.
 
@@ -70,7 +70,7 @@ The ThingsBoard module is responsible for:
 -   Real-time and historical visualization of occupancy data.
 -   Integration with the Web Manager for displaying collected data.
 
-> For details on configuration, running, and stopping, see the [ThingsBoard README](./trabalhos-Ufes-IoT-ThingsBoard/README.md).
+> For details on configuration, running, and stopping, see the [ThingsBoard README](https://github.com/Propato/trabalhos-Ufes-IoT-ThingsBoard/blob/main/README.md).
 
 ---
 
@@ -103,3 +103,8 @@ trabalhos-Ufes-IoT/
 ├── trabalhos-Ufes-IoT-gate-control/  # Embedded gate device
 └── trabalhos-Ufes-IoT-ThingsBoard/   # Monitoring and visualization
 ```
+
+## Team
+
+| [<img src="https://avatars.githubusercontent.com/u/84464307?s=400&u=e9879bb9f28ab7ca900513a3323bcf3fcbfcd68e&v=4" width=110 alt="Foto de Perfil David Propato"><br><sub>David Propato</sub>](https://github.com/Propato) | [<img src="https://avatars.githubusercontent.com/u/78544421?v=4" width=110 alt="Foto de Perfil Klarine Mendonça"><br><sub>Klarine Mendonça</sub>](https://github.com/Klarinemend) |
+| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
